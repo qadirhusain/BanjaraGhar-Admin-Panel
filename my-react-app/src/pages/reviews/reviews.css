@@ -1,0 +1,11 @@
+.stars {
+  display: inline-flex;
+  gap: 2px;
+  color: #c9962b;
+  white-space: nowrap;
+}
+.review-comment {
+  max-width: 360px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}

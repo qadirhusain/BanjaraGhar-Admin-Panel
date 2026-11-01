@@ -1,0 +1,53 @@
+.modal--wide {
+  max-width: 900px;
+}
+.picker {
+  display: flex;
+  gap: 16px;
+}
+.picker__column {
+  flex: 1;
+  min-width: 0;
+  max-height: 55vh;
+  overflow-y: auto;
+}
+.picker__column h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+.picker__search {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.picker__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.picker__item img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #f3f4f6;
+}
+.picker__name {
+  flex: 1;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.picker__name small {
+  color: #6b7280;
+}
+
+@media (max-width: 700px) {
+  .picker {
+    flex-direction: column;
+  }
+}

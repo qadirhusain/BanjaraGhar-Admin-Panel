@@ -1,0 +1,35 @@
+.message-row {
+  cursor: pointer;
+}
+.message-row:hover {
+  background: #fafafa;
+}
+.message-row--new {
+  font-weight: 600;
+}
+.message-preview {
+  max-width: 320px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.message-body {
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px 0;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+.modal__footer select {
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.modal__footer a.btn {
+  text-decoration: none;
+}
